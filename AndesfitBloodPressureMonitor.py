@@ -1,8 +1,16 @@
+'''
+Created on Feb 2020
+
+Contributor :
+- Agung Pambudi <agung.pambudi5595@gmail.com>
+- Azman Latif <azman.latif@mail.ugm.ac.id>
+'''
+
 import pygatt
 
-import logging
-logging.basicConfig()
-logging.getLogger('pygatt').setLevel(logging.DEBUG)
+#import logging
+#logging.basicConfig()
+#logging.getLogger('pygatt').setLevel(logging.DEBUG)
 
 def handleData(handle, value):
     if len(value) == 2:
